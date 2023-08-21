@@ -12,3 +12,8 @@ for (let i = 0; i < courses.length; i++) {
         total.textContent = totalValue;
     });
 }
+
+clearBtn.addEventListener('click', function () {
+    totalValue = 0;
+    total.textContent = totalValue;
+});
