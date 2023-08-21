@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffe0f3;
+    position: sticky;
+}
+
+.content {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffe0f3;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffe0f3;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffe0f3;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.course img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ffe0f3;
+    margin-top: 30px;
+}
